@@ -54,4 +54,17 @@ window.addEventListener("load", function () {
             <td>${latestSubmission.idNumber}</td>
             <td>${latestSubmission.phone}</td>
             <td>${latestSubmission.registeredAddress}</td>
-            <td>${latest
+            <td>${latestSubmission.currentAddress}</td>
+            <td>${latestSubmission.householdType}</td>
+            <td>${latestSubmission.identifyDate}</td>
+            <td>${latestSubmission.noPolicyDate}</td>
+            <td>${latestSubmission.identifyStandard}</td>
+            <td>${latestSubmission.waterStatus}</td>
+            <td>${latestSubmission.housingStatus}</td>
+            <td>${latestSubmission.workersCount}</td>
+            <td>${latestSubmission.workIncome}</td>
+            <td>${latestSubmission.averageIncome}</td>
+            <td>${latestSubmission.registerDate}</td>
+        </tr>`;
+    }
+});
